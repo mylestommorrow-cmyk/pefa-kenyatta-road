@@ -1,0 +1,137 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-display: 'Fraunces', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+    --color-primary: #1E3A8A;
+    --color-accent: #D97706;
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-4: 16px;
+    --space-6: 24px;
+    --space-8: 32px;
+    --space-12: 48px;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    font-size: 16px;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
+  h1, h2, .font-display {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  .font-mono-tabular {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Accessible high-contrast focus ring */
+:focus-visible {
+  outline: 2px solid #D97706;
+  outline-offset: 2px;
+}
+
+/* Skip to content accessibility link */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 8px;
+  z-index: 100;
+  background: #1E3A8A;
+  color: #FFFFFF;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.skip-link:focus {
+  left: 16px;
+}
+
+/* Live Cross Ambient Backdrop (compositor-only: transform + opacity) */
+@keyframes crossKenBurns {
+  0% {
+    transform: scale(1.03) translate3d(0%, 0%, 0);
+  }
+  50% {
+    transform: scale(1.09) translate3d(-1.4%, -0.8%, 0);
+  }
+  100% {
+    transform: scale(1.05) translate3d(1%, -0.4%, 0);
+  }
+}
+
+@keyframes sunbeamBreath {
+  0% {
+    opacity: 0.38;
+    transform: scale(0.96) translate3d(0%, 0%, 0);
+  }
+  100% {
+    opacity: 0.68;
+    transform: scale(1.08) translate3d(-2%, 1.5%, 0);
+  }
+}
+
+@keyframes mistDrift {
+  0% {
+    opacity: 0.25;
+    transform: translate3d(-3%, 1%, 0);
+  }
+  100% {
+    opacity: 0.5;
+    transform: translate3d(3%, -1%, 0);
+  }
+}
+
+.live-cross-motion {
+  animation: crossKenBurns 34s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+.live-sunbeam-motion {
+  animation: sunbeamBreath 12s ease-in-out infinite alternate;
+  will-change: transform, opacity;
+}
+
+.live-mist-motion {
+  animation: mistDrift 24s ease-in-out infinite alternate;
+  will-change: transform, opacity;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .live-cross-motion,
+  .live-sunbeam-motion,
+  .live-mist-motion {
+    animation: none !important;
+    transform: none !important;
+  }
+}

@@ -1,0 +1,56 @@
+export const CHURCH_CONFIG = {
+  name: 'PEFA Church, Kenyatta Branch',
+  shortName: 'PEFA Kenyatta',
+  denomination: 'Pentecostal Evangelistic Fellowship of Africa',
+  tagline: 'Loving God. Growing Together. Serving Kenyatta & Nairobi.',
+  taglineSw: 'Kumpenda Mungu. Kukua Pamoja. Kuhudumia Kenyatta na Nairobi.',
+  address: 'Kenyatta Market Road, off Mbagathi Way, Nairobi',
+  landmarks: '200m past Kenyatta Market toward Mbagathi Roundabout, opposite Kenyatta Golf Course Estate Gate',
+  city: 'Nairobi, Kenya',
+  coordinates: {
+    lat: -1.3036,
+    lng: 36.8012,
+  },
+  phone: '+254 722 000 111',
+  whatsappNumber: '254722000111',
+  email: 'info@pefakenyatta.org',
+  seniorPastor: 'Rev. David Mwangi',
+  mpesa: {
+    paybill: '522522',
+    tillNumber: '5984120',
+    accountFormat: 'TITHE / OFFERING / BUILDING / MISSIONS',
+    businessName: 'PEFA KENYATTA',
+  },
+  services: [
+    {
+      name: 'First Sunday Service (English & Kiswahili)',
+      nameSw: 'Ibada ya Kwanza Jumapili',
+      time: 'Sundays · 8:00 AM – 10:00 AM',
+      notes: 'Expository word, praise & worship, PEFA Kids check-in',
+    },
+    {
+      name: 'Second Sunday Family Service',
+      nameSw: 'Ibada ya Pili ya Familia',
+      time: 'Sundays · 10:30 AM – 12:45 PM',
+      notes: 'Full choir, Youth & Teens classes, visitor welcome lounge',
+    },
+    {
+      name: 'Midweek Bible Study',
+      nameSw: 'Masomo ya Biblia Katikati ya Wiki',
+      time: 'Wednesdays · 5:30 PM – 7:00 PM',
+      notes: 'Interactive scripture study & communion on 1st Wednesdays',
+    },
+    {
+      name: 'Evening Prayer & Intercession',
+      nameSw: 'Maombi na Maombezi',
+      time: 'Fridays · 6:00 PM – 8:00 PM',
+      notes: 'Monthly Kesha on 1st Friday (9:00 PM – 4:30 AM)',
+    },
+  ],
+  socials: {
+    youtube: 'https://www.youtube.com/@pefakenyatta',
+    facebook: 'https://www.facebook.com/pefakenyatta',
+    instagram: 'https://www.instagram.com/pefakenyatta',
+    tiktok: 'https://www.tiktok.com/@pefakenyatta',
+  },
+};

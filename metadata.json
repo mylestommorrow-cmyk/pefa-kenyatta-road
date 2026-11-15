@@ -1,0 +1,8 @@
+{
+  "name": "PEFA Kenyatta",
+  "description": "Official church website, M-Pesa giving portal, and member community hub for PEFA Church, Kenyatta Branch, Nairobi, Kenya.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

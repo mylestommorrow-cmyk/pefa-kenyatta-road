@@ -1,0 +1,520 @@
+{
+  "settings": {
+    "id": "main",
+    "is_live": false,
+    "live_title": "Sunday Family Worship — Live from PEFA Kenyatta",
+    "live_url": "https://www.youtube.com/@pefakenyatta",
+    "daily_verse_ref": "Psalm 122:1",
+    "daily_verse_text": "\"I rejoiced with those who said to me, 'Let us go to the house of the Lord.'\"",
+    "daily_verse_sw": "\"Nalifurahi waliponiambia, Na twende nyumbani mwa Bwana.\"",
+    "daily_devotional": "Every gathering in God’s house is an invitation to lay down heavy burdens and find renewed strength in Christ together with your church family.",
+    "updated_at": "2026-11-15T13:19:58.000Z"
+  },
+  "leaders": [
+    {
+      "id": "leader-1",
+      "full_name": "Rev. David Mwangi",
+      "role_title": "Senior Pastor",
+      "role_title_sw": "Mchungaji Mkuu",
+      "bio": "Serving PEFA Kenyatta for over 14 years with a heart for expository preaching, family discipleship, and Nairobi urban missions.",
+      "photo_key": "pastorDavid",
+      "display_order": 1,
+      "published": true
+    },
+    {
+      "id": "leader-2",
+      "full_name": "Pastor Grace Wanjiku",
+      "role_title": "Associate Pastor — Care & Families",
+      "role_title_sw": "Mchungaji Msaidizi — Familia na Ushauri",
+      "bio": "Leads pastoral care, women's fellowship, and new-believer foundations across Kenyatta and Ngumo estates.",
+      "photo_key": "pastorGrace",
+      "display_order": 2,
+      "published": true
+    },
+    {
+      "id": "leader-3",
+      "full_name": "Elder Samuel Ochieng",
+      "role_title": "Church Secretary & Missions Lead",
+      "role_title_sw": "Katibu wa Kanisa na Misheni",
+      "bio": "Oversees church governance, community food outreach, and rural church planting partnerships across Kenya.",
+      "display_order": 3,
+      "published": true
+    },
+    {
+      "id": "leader-4",
+      "full_name": "Deaconess Esther Muthoni",
+      "role_title": "Treasurer & Stewardship",
+      "role_title_sw": "Mweka Hazina",
+      "bio": "Stewards transparent church finances, M-Pesa giving accountability, and sanctuary building development.",
+      "display_order": 4,
+      "published": true
+    }
+  ],
+  "sermons": [
+    {
+      "id": "sermon-1",
+      "title": "Rooted in Hope When Seasons Shift",
+      "title_sw": "Wenye Mizizi ya Tumaini",
+      "preacher": "Rev. David Mwangi",
+      "sermon_date": "2026-11-08",
+      "series": "Anchored in Grace",
+      "scripture": "Jeremiah 17:7-8",
+      "summary": "How a believer stays spiritually green and fruitful even in economic or personal dry seasons through daily trust in God.",
+      "youtube_url": "https://www.youtube.com/watch?v=jfKfPfyJRdk",
+      "notes_url": "#notes-jeremiah-17",
+      "duration": "44 min",
+      "published": true,
+      "created_at": "2026-11-15T13:19:58.000Z"
+    },
+    {
+      "id": "sermon-2",
+      "title": "The Praying Household",
+      "title_sw": "Nyumba ya Maombi",
+      "preacher": "Pastor Grace Wanjiku",
+      "sermon_date": "2026-11-01",
+      "series": "Strong Families",
+      "scripture": "Joshua 24:15",
+      "summary": "Practical rhythms for building an altar of prayer, kindness, and scripture in modern Kenyan homes.",
+      "youtube_url": "https://www.youtube.com/watch?v=jfKfPfyJRdk",
+      "notes_url": "#notes-joshua-24",
+      "duration": "38 min",
+      "published": true,
+      "created_at": "2026-11-15T13:19:58.000Z"
+    },
+    {
+      "id": "sermon-3",
+      "title": "Generosity That Builds the Kingdom",
+      "title_sw": "Ukarimu Unaoujenga Ufalme",
+      "preacher": "Rev. David Mwangi",
+      "sermon_date": "2026-10-25",
+      "series": "Anchored in Grace",
+      "scripture": "2 Corinthians 9:6-11",
+      "summary": "Understanding cheerful stewardship, firstfruits, and how local giving transforms neighborhoods around Mbagathi and Kibra.",
+      "youtube_url": "https://www.youtube.com/watch?v=jfKfPfyJRdk",
+      "notes_url": "#notes-2cor-9",
+      "duration": "41 min",
+      "published": true,
+      "created_at": "2026-11-15T13:19:58.000Z"
+    },
+    {
+      "id": "sermon-4",
+      "title": "Bold Witnesses in the Marketplace",
+      "title_sw": "Mashahidi Hodari Kazini",
+      "preacher": "Elder Samuel Ochieng",
+      "sermon_date": "2026-10-18",
+      "series": "Sent Out",
+      "scripture": "Acts 1:8",
+      "summary": "Living with integrity and quiet courage in Nairobi offices, campuses, and businesses.",
+      "youtube_url": "https://www.youtube.com/watch?v=jfKfPfyJRdk",
+      "notes_url": "#notes-acts-1",
+      "duration": "36 min",
+      "published": true,
+      "created_at": "2026-11-15T13:19:58.000Z"
+    }
+  ],
+  "events": [
+    {
+      "id": "event-1",
+      "title": "Sunday Family Worship & Holy Communion",
+      "title_sw": "Ibada ya Familia na Meza ya Bwana",
+      "category": "Worship",
+      "start_at": "2026-11-22T10:30:00+03:00",
+      "end_at": "2026-11-22T12:45:00+03:00",
+      "location": "PEFA Kenyatta Main Sanctuary",
+      "description": "Join us for uplifting English & Kiswahili praise, verse-by-verse teaching, and Holy Communion. PEFA Kids runs concurrently for ages 3–12.",
+      "rsvp_enabled": true,
+      "rsvp_count": 42,
+      "published": true,
+      "created_at": "2026-11-15T13:19:58.000Z"
+    },
+    {
+      "id": "event-2",
+      "title": "Kenyatta Neighborhood Food & Medical Outreach",
+      "title_sw": "Huduma ya Chakula na Afya Mtaani",
+      "category": "Outreach",
+      "start_at": "2026-11-28T09:00:00+03:00",
+      "end_at": "2026-11-28T14:00:00+03:00",
+      "location": "Kenyatta Market Grounds",
+      "description": "Free blood pressure & diabetes screening with Christian doctors from KNH, children mentorship, and food hampers for 120 families.",
+      "photo_key": "communityOutreach",
+      "rsvp_enabled": true,
+      "rsvp_count": 28,
+      "published": true,
+      "created_at": "2026-11-15T13:19:58.000Z"
+    },
+    {
+      "id": "event-3",
+      "title": "Friday Night Kesha: Revival & Intercession",
+      "title_sw": "Kesha ya Ijumaa: Uamsho na Maombi",
+      "category": "Prayer",
+      "start_at": "2026-12-04T21:00:00+03:00",
+      "end_at": "2026-12-05T04:30:00+03:00",
+      "location": "PEFA Kenyatta Main Sanctuary",
+      "description": "An overnight gathering of worship, word, and intercession for families, candidates, and our nation Kenya.",
+      "rsvp_enabled": true,
+      "rsvp_count": 65,
+      "published": true,
+      "created_at": "2026-11-15T13:19:58.000Z"
+    },
+    {
+      "id": "event-4",
+      "title": "Youth & Young Adults Hangout — Nairobi",
+      "title_sw": "Kongamano la Vijana",
+      "category": "Youth",
+      "start_at": "2026-12-12T14:00:00+03:00",
+      "end_at": "2026-12-12T17:30:00+03:00",
+      "location": "Fellowship Hall, Kenyatta Branch",
+      "description": "Acoustic worship, career & faith panel with Christian professionals, and fellowship meal.",
+      "photo_key": "youthMinistry",
+      "rsvp_enabled": true,
+      "rsvp_count": 34,
+      "published": true,
+      "created_at": "2026-11-15T13:19:58.000Z"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-1",
+      "title": "New Members & Baptism Class Starts This Sunday",
+      "title_sw": "Darasa la Washiriki Wapya na Ubatizo",
+      "body": "If you recently joined PEFA Kenyatta or wish to be baptized, meet Pastor Grace in Room 2 right after the 10:30 AM service.",
+      "body_sw": "Kama umejiunga nasi hivi karibuni au unatamani kubatizwa, kutana na Mchungaji Grace chumbani namba 2 baada ya ibada ya pili.",
+      "event_date": "Sundays, 12:45 PM",
+      "priority": "important",
+      "published": true,
+      "created_at": "2026-11-15T13:19:58.000Z"
+    },
+    {
+      "id": "ann-2",
+      "title": "Midweek Bible Study — Book of Romans",
+      "title_sw": "Masomo ya Biblia Jumatano",
+      "body": "Join us every Wednesday evening at 5:30 PM as we walk chapter-by-chapter through Paul’s letter to the Romans.",
+      "body_sw": "Karibu kila Jumatano saa 11:30 jioni tukijifunza kitabu cha Warumi mstari kwa mstari.",
+      "event_date": "Wednesdays, 5:30 PM",
+      "priority": "normal",
+      "published": true,
+      "created_at": "2026-11-15T13:19:58.000Z"
+    },
+    {
+      "id": "ann-3",
+      "title": "Sanctuary Solar & Roof Expansion Update",
+      "title_sw": "Taarifa ya Ujenzi na Nishati ya Jua",
+      "body": "Thank you for giving toward our Building Fund! Phase 1 solar backup lighting is now 80% funded.",
+      "body_sw": "Asante kwa sadaka yako ya ujenzi! Awamu ya kwanza ya taa za sola imefikia asilimia 80.",
+      "event_date": "Ongoing",
+      "priority": "normal",
+      "published": true,
+      "created_at": "2026-11-15T13:19:58.000Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": "post-1",
+      "title": "Welcome Home: A Fresh Season of Community Care at PEFA Kenyatta",
+      "slug": "welcome-home-fresh-season",
+      "excerpt": "How our small groups and KNH hospital visitation team are reaching neighbors around Kenyatta Market and Mbagathi Way.",
+      "content": "Over the past quarter, more than 40 families have connected into weekly home fellowships across Kenyatta Estate, Ngumo, and Woodley. Whether you are visiting Nairobi for the first time or looking for a church home near Kenyatta National Hospital, our doors and hearts are open every Sunday at 8:00 AM and 10:30 AM.",
+      "author": "Rev. David Mwangi",
+      "photo_key": "communityOutreach",
+      "published_at": "2026-11-05",
+      "published": true,
+      "created_at": "2026-11-15T13:19:58.000Z"
+    },
+    {
+      "id": "post-2",
+      "title": "Building Together: Phase 1 Solar & Children’s Wing Progress",
+      "slug": "building-together-solar-progress",
+      "excerpt": "Thanks to faithful M-Pesa giving toward the Building Fund, our children’s classrooms now have brighter ventilation and backup power.",
+      "content": "Every shilling given to the Building Fund goes directly toward creating safe, joyful spaces for PEFA Kids and dependable lighting for Friday prayer vigils. Thank you for partnering with us in prayer and generosity.",
+      "author": "Deaconess Esther Muthoni",
+      "photo_key": "youthMinistry",
+      "published_at": "2026-10-28",
+      "published": true,
+      "created_at": "2026-11-15T13:19:58.000Z"
+    }
+  ],
+  "ministries": [
+    {
+      "id": "min-1",
+      "name": "PEFA Kids (Ages 3–12)",
+      "name_sw": "Huduma ya Watoto",
+      "category": "Children",
+      "leader_name": "Teacher Lydia Njeri",
+      "meeting_time": "Sundays · 8:00 AM & 10:30 AM",
+      "description": "Age-grouped Bible storytelling, memory verses, crafts, and joyful worship in a safe, checked-in children’s wing.",
+      "published": true
+    },
+    {
+      "id": "min-2",
+      "name": "Teens Ignite (Ages 13–17)",
+      "name_sw": "Huduma ya Vijana Wadogo",
+      "category": "Teens",
+      "leader_name": "Brother Brian Kiprop",
+      "meeting_time": "Sundays 10:30 AM & Saturdays 2:00 PM",
+      "description": "Real conversations on identity, friendships, school life, and walking boldly with Jesus.",
+      "photo_key": "youthMinistry",
+      "published": true
+    },
+    {
+      "id": "min-3",
+      "name": "Vessels of Destiny Youth (18–30)",
+      "name_sw": "Vijana Wakuu",
+      "category": "Youth",
+      "leader_name": "Pastor Kevin Otieno",
+      "meeting_time": "Sundays 1:00 PM & Thursdays 6:00 PM",
+      "description": "University students and young professionals growing in purpose, music, and career integrity across Nairobi.",
+      "photo_key": "youthMinistry",
+      "published": true
+    },
+    {
+      "id": "min-4",
+      "name": "Daughters of Zion (Women)",
+      "name_sw": "Huduma ya Wanawake",
+      "category": "Women",
+      "leader_name": "Pastor Grace Wanjiku",
+      "meeting_time": "1st Saturday of Month · 2:00 PM",
+      "description": "Prayer, mentorship, home economics, and supporting expectant mothers and widows in our community.",
+      "published": true
+    },
+    {
+      "id": "min-5",
+      "name": "Kingdom Men Fellowship",
+      "name_sw": "Huduma ya Wanaume",
+      "category": "Men",
+      "leader_name": "Elder Peter Kamau",
+      "meeting_time": "3rd Saturday of Month · 7:30 AM",
+      "description": "Breakfast fellowship equipping husbands, fathers, and marketplace leaders in godly stewardship.",
+      "published": true
+    },
+    {
+      "id": "min-6",
+      "name": "Levites Praise & Worship",
+      "name_sw": "Kikosi cha Sifa na Kuabudu",
+      "category": "Music/Worship",
+      "leader_name": "Minister Sarah Achieng",
+      "meeting_time": "Saturdays · 3:00 PM (Rehearsal)",
+      "description": "Vocalists and instrumentalists leading heartfelt, Spirit-led English and Kiswahili congregational worship.",
+      "published": true
+    },
+    {
+      "id": "min-7",
+      "name": "Hospitality & Ushering",
+      "name_sw": "Ukaribishaji na Mashemasi",
+      "category": "Ushering",
+      "leader_name": "Deacon John Njoroge",
+      "meeting_time": "Sundays · 7:15 AM Briefing",
+      "description": "The warm first smile at the gate, seating support, visitor welcome packs, and order during service.",
+      "published": true
+    },
+    {
+      "id": "min-8",
+      "name": "Watchmen Intercessory",
+      "name_sw": "Waombezi wa Kanisa",
+      "category": "Intercessory",
+      "leader_name": "Sister Mary Wambui",
+      "meeting_time": "Tuesdays & Fridays · 6:00 PM",
+      "description": "Standing in the gap for church families, the sick at KNH, leadership, and revival across Nairobi.",
+      "published": true
+    },
+    {
+      "id": "min-9",
+      "name": "Compassion & Missions Outreach",
+      "name_sw": "Huduma ya Jamii na Misheni",
+      "category": "Outreach",
+      "leader_name": "Elder Samuel Ochieng",
+      "meeting_time": "Last Saturday of Month · 9:00 AM",
+      "description": "Street evangelism, hospital visits to Kenyatta National Hospital, and neighborhood food support.",
+      "photo_key": "communityOutreach",
+      "published": true
+    }
+  ],
+  "smallGroups": [
+    {
+      "id": "sg-1",
+      "name": "Kenyatta Estate Grace Cell",
+      "area": "Kenyatta Estate (Phase 1 & 2)",
+      "meeting_day": "Thursday",
+      "meeting_time": "6:30 PM",
+      "host_name": "Bro. Daniel & Sis. Ruth Karanja",
+      "contact_phone": "+254 722 334 455",
+      "description": "Warm living-room Bible study, prayer, and family care within walking distance of the church.",
+      "published": true
+    },
+    {
+      "id": "sg-2",
+      "name": "Ngumo & Mbagathi Cell",
+      "area": "Ngumo Estate",
+      "meeting_day": "Tuesday",
+      "meeting_time": "6:30 PM",
+      "host_name": "Elder Samuel Ochieng",
+      "contact_phone": "+254 733 445 566",
+      "description": "Discussion on Sunday's sermon plus intercession for families around Ngumo and Highview.",
+      "published": true
+    },
+    {
+      "id": "sg-3",
+      "name": "Woodley & Joseph Kang'ethe Cell",
+      "area": "Woodley / Kibera Drive",
+      "meeting_day": "Thursday",
+      "meeting_time": "6:00 PM",
+      "host_name": "Deaconess Esther Muthoni",
+      "contact_phone": "+254 711 556 677",
+      "description": "Evening fellowship for professionals and families in Woodley and Jamhuri.",
+      "published": true
+    },
+    {
+      "id": "sg-4",
+      "name": "Golf Course & KNH Campus Cell",
+      "area": "Golf Course / KNH Area",
+      "meeting_day": "Wednesday",
+      "meeting_time": "7:00 PM",
+      "host_name": "Dr. Mercy Chebet",
+      "contact_phone": "+254 720 667 788",
+      "description": "Focused on medical students, nurses, and young professionals near Kenyatta National Hospital.",
+      "published": true
+    }
+  ],
+  "testimonies": [
+    {
+      "id": "test-1",
+      "author_name": "Beatrice Nyambura",
+      "title": "Peace and Provision After Job Loss",
+      "story": "When I lost my job early this year, our Ngumo cell group prayed with me every Tuesday and brought groceries without me even asking. Three months later God opened a better role at a clinic nearby.",
+      "status": "approved",
+      "consent_given": true,
+      "created_at": "2026-11-15T13:19:58.000Z"
+    },
+    {
+      "id": "test-2",
+      "author_name": "Josephat Mutua",
+      "title": "Restored Family Unity",
+      "story": "Attending the Sunday teachings on the Praying Household transformed how my wife and I communicate. We now pray together with our children every night before bed.",
+      "status": "approved",
+      "consent_given": true,
+      "created_at": "2026-11-15T13:19:58.000Z"
+    },
+    {
+      "id": "test-3",
+      "author_name": "Miriam Akinyi",
+      "title": "Healing & Warm Welcome at KNH Season",
+      "story": "While my mother was admitted at Kenyatta National Hospital, PEFA Kenyatta intercessors visited us and prayed with us every evening. Today she is healthy and worshiping with us.",
+      "status": "pending",
+      "consent_given": true,
+      "created_at": "2026-11-15T13:19:58.000Z"
+    }
+  ],
+  "visitors": [
+    {
+      "id": "vis-1",
+      "full_name": "Faith Wambui",
+      "phone": "+254712889900",
+      "email": "faith.wambui@example.ke",
+      "preferred_date": "2026-11-22",
+      "preferred_service": "10:30 AM Main Family Service",
+      "guests_count": 2,
+      "notes": "Visiting with my 6-year-old daughter — excited for PEFA Kids!",
+      "consent_given": true,
+      "followed_up": false,
+      "created_at": "2026-11-15T13:19:58.000Z"
+    }
+  ],
+  "prayerRequests": [
+    {
+      "id": "pray-1",
+      "request_type": "prayer",
+      "full_name": "Peter N.",
+      "phone": "+254723112233",
+      "request_text": "Please stand with me in prayer for my upcoming nursing licensing exams next month.",
+      "pastors_only": true,
+      "consent_given": true,
+      "status": "new",
+      "created_at": "2026-11-15T13:19:58.000Z"
+    }
+  ],
+  "ministrySignups": [
+    {
+      "id": "ms-1",
+      "ministry_id": "min-6",
+      "ministry_name": "Levites Praise & Worship",
+      "full_name": "Caleb Kiprono",
+      "phone": "+254715443322",
+      "email": "caleb@example.ke",
+      "notes": "I play acoustic guitar and sing tenor.",
+      "consent_given": true,
+      "created_at": "2026-11-15T13:19:58.000Z"
+    }
+  ],
+  "eventRsvps": [],
+  "donations": [
+    {
+      "id": "don-1",
+      "donor_name": "Member Giving",
+      "phone": "254722111222",
+      "amount": 2500,
+      "fund": "Tithe",
+      "checkout_request_id": "ws_CO_SEED_001",
+      "mpesa_receipt_number": "UKG48X91LP",
+      "status": "completed",
+      "result_desc": "The service request is processed successfully.",
+      "consent_given": true,
+      "created_at": "2026-11-15T13:19:58.000Z"
+    },
+    {
+      "id": "don-2",
+      "donor_name": "Grace M.",
+      "phone": "254711998877",
+      "amount": 1000,
+      "fund": "Building Fund",
+      "checkout_request_id": "ws_CO_SEED_002",
+      "mpesa_receipt_number": "UKG72K10MN",
+      "status": "completed",
+      "result_desc": "The service request is processed successfully.",
+      "consent_given": true,
+      "created_at": "2026-11-15T13:19:58.000Z"
+    },
+    {
+      "id": "don-3",
+      "donor_name": "Anonymous",
+      "phone": "254733554433",
+      "amount": 500,
+      "fund": "Offering",
+      "checkout_request_id": "ws_CO_SEED_003",
+      "mpesa_receipt_number": "UKG91T34QR",
+      "status": "completed",
+      "result_desc": "The service request is processed successfully.",
+      "consent_given": true,
+      "created_at": "2026-11-15T13:19:58.000Z"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "member-demo-1",
+      "full_name": "Mercy Wanjiru",
+      "phone": "254722111222",
+      "email": "mercy@pefakenyatta.org",
+      "role": "member",
+      "small_group_id": "sg-1",
+      "sms_opt_in": true,
+      "whatsapp_opt_in": true,
+      "saved_sermon_ids": [
+        "sermon-1"
+      ],
+      "created_at": "2026-11-15T13:19:58.000Z"
+    },
+    {
+      "id": "admin-demo-1",
+      "full_name": "Rev. David Mwangi",
+      "phone": "254722000111",
+      "email": "pastor@pefakenyatta.org",
+      "role": "admin",
+      "small_group_id": "sg-1",
+      "sms_opt_in": true,
+      "whatsapp_opt_in": true,
+      "saved_sermon_ids": [
+        "sermon-1",
+        "sermon-2"
+      ],
+      "created_at": "2026-11-15T13:19:58.000Z"
+    }
+  ]
+}
